@@ -1,0 +1,91 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    width: 600px;
+    border : 30px solid gray;
+    margin : 0 auto;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+
+dfn {
+    font-style: italic;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float : left;
+}
+.col-right {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float : right;
+}
+
+h1 {
+    background-color: skyblue;
+    text-align: center;
+}
+h2 {
+    background-color: skyblue;
+    text-align: center;
+
+}
+h3 {
+    background-color: skyblue;
+    text-align: center;
+
+}
+h4 {
+    font-family: -apple-system;
+    max-font-size: 20px;
+    min-font-size: 12px;
+    color: coral;
+}
+p {
+    color: black;
+    text-align: center;
+}
+
+img {
+    height : 200px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+

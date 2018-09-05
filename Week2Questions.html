@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- html is the "root" element it can have
+     one "head" and one "body" element -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Questions and Answers for Week 2</title>
+  <!-- I couldn't help it, it was just too ugly without a little style. -->
+  <style>
+  h1 {
+    font-family:sans-serif;
+    text-align: center;
+  }
+  main {
+    margin: 2em;
+    border: purple 20px solid;
+    padding: 1em;
+    background-color: white;
+  }
+  body {
+      background-color: #cde2f5;
+  }
+  code {
+    color: blue;
+  }
+
+  </style>
+  <link rel="stylesheet" href="Week2Questions.css">
+</head>
+
+<body>
+  <main>
+    <p> Name : Wei Xu</p>
+    <p> NetID: fn9523 </p>
+    <header><h1>Week #2 Questions and Answers</h1></header>
+    <section>
+      <header><h2>Questio 1:</h2></header>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="Question1">JavaScript practice with simple loops:
+          Write JavaScript code in your browsers developer tool console to produce a list of squares and cubes for numbers from 1 to 10.</p>
+      </section>
+      <section class="answer">
+
+        <!-- Your answer here -->
+        <img src = "src/Week2Question1.png">
+      </section>
+    </section>
+
+    <section>
+      <header><h2>Question 2:</h2></header>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="QuestionA"><strong>Question a: </strong></p>
+        <p>What is the CSS selector that you would use to select all the &lt;code&gt; elements?
+          How many are there?</p>
+      </section>
+      <section class="answer">
+        <!-- Your answer here -->
+        <p id="QuestionAAns"><strong>Answer: </strong> </p>
+        <p>The css selector to select all the code elements is <code> document.querySelectorAll("code");</code>.</p>
+        <p> There are 106 code elements.</p><br>
+      </section>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="QuestionB"><strong>Question b: </strong></p>
+        <p>
+          What is the CSS selector that you would use to select all the &lt;code&gt; elements contained in &lt;pre&gt; elements?
+          How many are there? Are there more or less than above. Why?
+          </p>
+      </section>
+      <section class="answer">
+        <!-- Your answer here -->
+        <p id="QuestionBAns"><strong>Answer: </strong> </p>
+        <p>The css selector to select all the code elements is <code>document.querySelectorAll("pre code");</code>.</p>
+        <p> There are 36 elements.</p>
+        <p> There are less than above, because this query just count the code elements which in the selector pre.</p><br>
+      </section>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="QuestionC"><strong>Question c: </strong></p>
+        <p>
+          What is the CSS selector that you would use to select all the &lt;figure&gt; elements? How many are there?
+        </p>
+      </section>
+      <section class="answer">
+        <!-- Your answer here -->
+        <p id="QuestionCAns"><strong>Answer: </strong> </p>
+        <p>The css selector to select all the code elements is <code>document.querySelectorAll("figure");</code>.</p>
+        <p> There are 5 elements.</p><br>
+      </section>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="QuestionD"><strong>Question d: </strong></p>
+        <p>
+          What is the CSS selector that you would use to select all the &lt;img&gt; elements?
+          How many are there?
+          Is this different from the above? Why?
+        </p>
+      </section>
+      <section class="answer">
+        <!-- Your answer here -->
+        <p id="QuestionDAns"><strong>Answer: </strong> </p>
+        <p>The css selector to select all the code elements is <code>document.querySelectorAll("img");</code>.</p>
+        <p> There are 6 elements.</p>
+        <p>Because there is one img element not in any figure element. This img is used to show web portal logo.</p>
+        <br>
+
+      </section>
+    </section>
+    <section>
+      <header><h2>Questio 3:</h2></header>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="Question3">JavaScript DOM practice: Go to the patent page on my website.
+          Using JavaScript in the developer console do the following:</p>
+        </section>
+
+        <section>
+        <p> a: </p>
+        <p>
+          Find the number of patents on the page and put the number into a JavaScript variable with a name of your choosing.
+          Hint each patent is in its own paragraph with class="patent" Take a screen shot of your code and use that as an answer.
+        </p>
+      </section>
+      <section class="answer">
+
+        <!-- Your answer here -->
+        <img src = "src/Week2Question3A.png">
+      </section>
+      <section>
+        <p> b: </p>
+        <p>
+          Figure out how to get the title as a plain JavaScript string for any patent on the page.
+          Show your method works with the 33rd patent listed. Take a screen shot of your code and answer.
+          Hint each patent’s title is in a span element with class=Title and you can get content
+          from a DOM element via the innerHTML and outerHTML properties.
+        </p>
+      </section>
+      <section class="answer">
+
+        <!-- Your answer here -->
+        <img src = "src/Week2Question3B.png">
+      </section>
+    </section>
+    <section>
+      <header><h2>Questio 4:</h2></header>
+      <section class="question">
+        <!-- Your question here -->
+        <p id="Question4">Explain what the DOM is in your own words and how it relates to an HTML page and why it might differ.</p>
+      </section>
+
+
+      <section class="answer">
+          <!-- Your answer here -->
+          <p id="Ans4"><strong>Answer: </strong> </p>
+          <p>The Document Object Model (DOM) is a programming interface that treats an HTML, XHTML, or XML document as a tree structure. </p>
+          <p>DOM simplified the operations of HTML by using the object-oriented design though.</p><br>
+      </section>
+    </section>
+
+
+
+
+
+
+
+
+  </main>
+</body>
+</html>
